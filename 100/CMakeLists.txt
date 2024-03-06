@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.23)
+project(100)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(P1000 P1000.cpp)
+add_executable(P1001 P1001.cpp)
+add_executable(B2005 B2005.cpp)
+add_executable(P5703 P5703.cpp)
+add_executable(P5704 P5704.cpp)
+add_executable(P5705 P5705.cpp)
+add_executable(P5706 P5706.cpp)
+add_executable(P5708 P5708.cpp)
+add_executable(P5707 P5707.cpp)
+add_executable(B2029 B2029.cpp)
+add_executable(P1425 P1425.cpp)
+add_executable(P1421 P1421.cpp)
+add_executable(P3954 P3954.cpp)

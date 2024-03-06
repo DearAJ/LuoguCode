@@ -1,0 +1,511 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: 100
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/aijunyang/Desktop/c++/LuoguCode/100/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target P1000
+
+
+#############################################
+# Order-only phony target for P1000
+
+build cmake_object_order_depends_target_P1000: phony || CMakeFiles/P1000.dir
+
+build CMakeFiles/P1000.dir/P1000.cpp.o: CXX_COMPILER__P1000_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/P1000.cpp || cmake_object_order_depends_target_P1000
+  DEP_FILE = CMakeFiles/P1000.dir/P1000.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P1000.dir
+  OBJECT_FILE_DIR = CMakeFiles/P1000.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P1000
+
+
+#############################################
+# Link the executable P1000
+
+build P1000: CXX_EXECUTABLE_LINKER__P1000_Debug CMakeFiles/P1000.dir/P1000.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/P1000.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P1000
+  TARGET_PDB = P1000.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P1001
+
+
+#############################################
+# Order-only phony target for P1001
+
+build cmake_object_order_depends_target_P1001: phony || CMakeFiles/P1001.dir
+
+build CMakeFiles/P1001.dir/P1001.cpp.o: CXX_COMPILER__P1001_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/P1001.cpp || cmake_object_order_depends_target_P1001
+  DEP_FILE = CMakeFiles/P1001.dir/P1001.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P1001.dir
+  OBJECT_FILE_DIR = CMakeFiles/P1001.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P1001
+
+
+#############################################
+# Link the executable P1001
+
+build P1001: CXX_EXECUTABLE_LINKER__P1001_Debug CMakeFiles/P1001.dir/P1001.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/P1001.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P1001
+  TARGET_PDB = P1001.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target B2005
+
+
+#############################################
+# Order-only phony target for B2005
+
+build cmake_object_order_depends_target_B2005: phony || CMakeFiles/B2005.dir
+
+build CMakeFiles/B2005.dir/B2005.cpp.o: CXX_COMPILER__B2005_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/B2005.cpp || cmake_object_order_depends_target_B2005
+  DEP_FILE = CMakeFiles/B2005.dir/B2005.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/B2005.dir
+  OBJECT_FILE_DIR = CMakeFiles/B2005.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target B2005
+
+
+#############################################
+# Link the executable B2005
+
+build B2005: CXX_EXECUTABLE_LINKER__B2005_Debug CMakeFiles/B2005.dir/B2005.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/B2005.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = B2005
+  TARGET_PDB = B2005.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P5703
+
+
+#############################################
+# Order-only phony target for P5703
+
+build cmake_object_order_depends_target_P5703: phony || CMakeFiles/P5703.dir
+
+build CMakeFiles/P5703.dir/P5703.cpp.o: CXX_COMPILER__P5703_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/P5703.cpp || cmake_object_order_depends_target_P5703
+  DEP_FILE = CMakeFiles/P5703.dir/P5703.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P5703.dir
+  OBJECT_FILE_DIR = CMakeFiles/P5703.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P5703
+
+
+#############################################
+# Link the executable P5703
+
+build P5703: CXX_EXECUTABLE_LINKER__P5703_Debug CMakeFiles/P5703.dir/P5703.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/P5703.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P5703
+  TARGET_PDB = P5703.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P5704
+
+
+#############################################
+# Order-only phony target for P5704
+
+build cmake_object_order_depends_target_P5704: phony || CMakeFiles/P5704.dir
+
+build CMakeFiles/P5704.dir/P5704.cpp.o: CXX_COMPILER__P5704_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/P5704.cpp || cmake_object_order_depends_target_P5704
+  DEP_FILE = CMakeFiles/P5704.dir/P5704.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P5704.dir
+  OBJECT_FILE_DIR = CMakeFiles/P5704.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P5704
+
+
+#############################################
+# Link the executable P5704
+
+build P5704: CXX_EXECUTABLE_LINKER__P5704_Debug CMakeFiles/P5704.dir/P5704.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/P5704.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P5704
+  TARGET_PDB = P5704.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P5705
+
+
+#############################################
+# Order-only phony target for P5705
+
+build cmake_object_order_depends_target_P5705: phony || CMakeFiles/P5705.dir
+
+build CMakeFiles/P5705.dir/P5705.cpp.o: CXX_COMPILER__P5705_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/P5705.cpp || cmake_object_order_depends_target_P5705
+  DEP_FILE = CMakeFiles/P5705.dir/P5705.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P5705.dir
+  OBJECT_FILE_DIR = CMakeFiles/P5705.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P5705
+
+
+#############################################
+# Link the executable P5705
+
+build P5705: CXX_EXECUTABLE_LINKER__P5705_Debug CMakeFiles/P5705.dir/P5705.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/P5705.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P5705
+  TARGET_PDB = P5705.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P5706
+
+
+#############################################
+# Order-only phony target for P5706
+
+build cmake_object_order_depends_target_P5706: phony || CMakeFiles/P5706.dir
+
+build CMakeFiles/P5706.dir/P5706.cpp.o: CXX_COMPILER__P5706_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/P5706.cpp || cmake_object_order_depends_target_P5706
+  DEP_FILE = CMakeFiles/P5706.dir/P5706.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P5706.dir
+  OBJECT_FILE_DIR = CMakeFiles/P5706.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P5706
+
+
+#############################################
+# Link the executable P5706
+
+build P5706: CXX_EXECUTABLE_LINKER__P5706_Debug CMakeFiles/P5706.dir/P5706.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/P5706.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P5706
+  TARGET_PDB = P5706.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P5708
+
+
+#############################################
+# Order-only phony target for P5708
+
+build cmake_object_order_depends_target_P5708: phony || CMakeFiles/P5708.dir
+
+build CMakeFiles/P5708.dir/P5708.cpp.o: CXX_COMPILER__P5708_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/P5708.cpp || cmake_object_order_depends_target_P5708
+  DEP_FILE = CMakeFiles/P5708.dir/P5708.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P5708.dir
+  OBJECT_FILE_DIR = CMakeFiles/P5708.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P5708
+
+
+#############################################
+# Link the executable P5708
+
+build P5708: CXX_EXECUTABLE_LINKER__P5708_Debug CMakeFiles/P5708.dir/P5708.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/P5708.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P5708
+  TARGET_PDB = P5708.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P5707
+
+
+#############################################
+# Order-only phony target for P5707
+
+build cmake_object_order_depends_target_P5707: phony || CMakeFiles/P5707.dir
+
+build CMakeFiles/P5707.dir/P5707.cpp.o: CXX_COMPILER__P5707_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/P5707.cpp || cmake_object_order_depends_target_P5707
+  DEP_FILE = CMakeFiles/P5707.dir/P5707.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P5707.dir
+  OBJECT_FILE_DIR = CMakeFiles/P5707.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P5707
+
+
+#############################################
+# Link the executable P5707
+
+build P5707: CXX_EXECUTABLE_LINKER__P5707_Debug CMakeFiles/P5707.dir/P5707.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/P5707.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P5707
+  TARGET_PDB = P5707.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target B2029
+
+
+#############################################
+# Order-only phony target for B2029
+
+build cmake_object_order_depends_target_B2029: phony || CMakeFiles/B2029.dir
+
+build CMakeFiles/B2029.dir/B2029.cpp.o: CXX_COMPILER__B2029_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/B2029.cpp || cmake_object_order_depends_target_B2029
+  DEP_FILE = CMakeFiles/B2029.dir/B2029.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/B2029.dir
+  OBJECT_FILE_DIR = CMakeFiles/B2029.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target B2029
+
+
+#############################################
+# Link the executable B2029
+
+build B2029: CXX_EXECUTABLE_LINKER__B2029_Debug CMakeFiles/B2029.dir/B2029.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/B2029.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = B2029
+  TARGET_PDB = B2029.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P1425
+
+
+#############################################
+# Order-only phony target for P1425
+
+build cmake_object_order_depends_target_P1425: phony || CMakeFiles/P1425.dir
+
+build CMakeFiles/P1425.dir/P1425.cpp.o: CXX_COMPILER__P1425_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/P1425.cpp || cmake_object_order_depends_target_P1425
+  DEP_FILE = CMakeFiles/P1425.dir/P1425.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P1425.dir
+  OBJECT_FILE_DIR = CMakeFiles/P1425.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P1425
+
+
+#############################################
+# Link the executable P1425
+
+build P1425: CXX_EXECUTABLE_LINKER__P1425_Debug CMakeFiles/P1425.dir/P1425.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/P1425.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P1425
+  TARGET_PDB = P1425.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P1421
+
+
+#############################################
+# Order-only phony target for P1421
+
+build cmake_object_order_depends_target_P1421: phony || CMakeFiles/P1421.dir
+
+build CMakeFiles/P1421.dir/P1421.cpp.o: CXX_COMPILER__P1421_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/P1421.cpp || cmake_object_order_depends_target_P1421
+  DEP_FILE = CMakeFiles/P1421.dir/P1421.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P1421.dir
+  OBJECT_FILE_DIR = CMakeFiles/P1421.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P1421
+
+
+#############################################
+# Link the executable P1421
+
+build P1421: CXX_EXECUTABLE_LINKER__P1421_Debug CMakeFiles/P1421.dir/P1421.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/P1421.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P1421
+  TARGET_PDB = P1421.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P3954
+
+
+#############################################
+# Order-only phony target for P3954
+
+build cmake_object_order_depends_target_P3954: phony || CMakeFiles/P3954.dir
+
+build CMakeFiles/P3954.dir/P3954.cpp.o: CXX_COMPILER__P3954_Debug /Users/aijunyang/Desktop/c++/LuoguCode/100/P3954.cpp || cmake_object_order_depends_target_P3954
+  DEP_FILE = CMakeFiles/P3954.dir/P3954.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P3954.dir
+  OBJECT_FILE_DIR = CMakeFiles/P3954.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P3954
+
+
+#############################################
+# Link the executable P3954
+
+build P3954: CXX_EXECUTABLE_LINKER__P3954_Debug CMakeFiles/P3954.dir/P3954.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/P3954.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P3954
+  TARGET_PDB = P3954.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/aijunyang/Desktop/c++/LuoguCode/100/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/aijunyang/Desktop/c++/LuoguCode/100/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/aijunyang/Desktop/c++/LuoguCode/100 -B/Users/aijunyang/Desktop/c++/LuoguCode/100/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/aijunyang/Desktop/c++/LuoguCode/100/cmake-build-debug
+
+build all: phony P1000 P1001 B2005 P5703 P5704 P5705 P5706 P5708 P5707 B2029 P1425 P1421 P3954
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
